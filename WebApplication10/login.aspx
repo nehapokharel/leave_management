@@ -52,7 +52,7 @@
                 <tr>
                     <td class="auto-style12">Password:</td>
                     <td class="auto-style13">
-                        <input id="txtpassword" class="auto-style6" type="password" /></td>
+                        <asp:TextBox ID="txtpassword" runat="server" type="password" /></td>
                 </tr>
                 <tr>
                     <td class="auto-style12">Department:</td>
