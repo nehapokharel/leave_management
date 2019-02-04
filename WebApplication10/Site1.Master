@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication10.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>EASY-LEAVE</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style type="text/css">
+        body {
+    background-color:grey;
+        }
+        #first{
+    background-color:ghostwhite;
+    font-family:Elephant;
+    color:darkslateblue;
+    font-size:xx-large;
+    margin-top:0px;
+    padding-top:15px;
+    text-align:center;
+    height: 50px;
+    width:100%;
+        }
+    #footer{
+    background-color:ghostwhite;
+    font-family:fantasy;
+    font-size:larger;
+    margin-bottom:0px;
+    color:darkslateblue;
+    text-align:center;
+    }     
+  </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id ="first" >EASY-LEAVE: Welcome </div> 
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPH1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer" runat="server">
+            EASY-LEAVE:Thank you!
+        </div>
+    </form>   
+</body>
+</html>

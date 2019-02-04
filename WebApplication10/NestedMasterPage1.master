@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="NestedMasterPage1.master.cs" Inherits="WebApplication10.NestedMasterPage1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+    .auto-style1 {
+        width: 100%;
+        height:500px;
+    }
+    .auto-style2 {
+        width:12%;
+        height:64px;
+    }
+    .auto-style3 {
+        width:100%;
+        height:64px;
+    }
+
+    #menu ul{
+    list-style:none;
+    margin:0px;
+    }
+    #menu ul li{
+    background-color:cadetblue;
+    border:solid 1px white;
+    width:125px;
+    height:80px;
+    padding-left:15px;
+    padding-top:9px;
+    }
+    #menu ul li a {
+    text-decoration:none;
+    color:snow;
+    display:block;
+    }
+    #menu ul li a:hover{
+    background-color:darkgreen;
+    color:ghostwhite;
+    }
+
+        .auto-style4 {
+            height: 64px;
+        }
+        #Calendar1{
+            background-color:cadetblue;
+        }
+
+    </style>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPH1" runat="server">
+    <table class="auto-style1">
+     <tr> 
+         <td class="auto-style2" id="menu">
+            <ul>
+                <li><a href="~/Apply.aspx">Apply </a></li>
+                <li><a href="~/calender.aspx">Calendar</a></li>
+                <li><a href="~/Acceptance.aspx">Acceptance</a></li>
+                <li><a href="~/About.aspx">About</a></li>
+            </ul>
+
+         </td>
+         <td class="auto-style3">
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+             </asp:ContentPlaceHolder>
+         </td>
+         <td class="auto-style4">
+             <asp:Calendar ID="Calendar1" runat="server" Height="353px"></asp:Calendar>
+         </td>
+     </tr>
+</table>
+                
+</asp:Content>
+       
+
+
