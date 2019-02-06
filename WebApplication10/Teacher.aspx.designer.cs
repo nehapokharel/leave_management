@@ -10,60 +10,78 @@
 namespace WebApplication10 {
     
     
-    public partial class WebForm3 {
+    public partial class Teacher {
         
         /// <summary>
-        /// sname control.
+        /// lbllid control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox sname;
+        protected global::System.Web.UI.WebControls.Label lbllid;
         
         /// <summary>
-        /// days control.
+        /// lblsname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox days;
+        protected global::System.Web.UI.WebControls.Label lblsname;
         
         /// <summary>
-        /// startdate control.
+        /// lbldays control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox startdate;
+        protected global::System.Web.UI.WebControls.Label lbldays;
         
         /// <summary>
-        /// enddate control.
+        /// lblsdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox enddate;
+        protected global::System.Web.UI.WebControls.Label lblsdate;
         
         /// <summary>
-        /// reason control.
+        /// lbledate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox reason;
+        protected global::System.Web.UI.WebControls.Label lbledate;
         
         /// <summary>
-        /// btnsubmit control.
+        /// lblreason control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnsubmit;
+        protected global::System.Web.UI.WebControls.Label lblreason;
+        
+        /// <summary>
+        /// btnAccept control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAccept;
+        
+        /// <summary>
+        /// btnDecline control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDecline;
     }
 }

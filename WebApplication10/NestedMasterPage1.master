@@ -17,6 +17,7 @@
     #menu ul{
     list-style:none;
     margin:0px;
+    padding-left:5px;
     }
     #menu ul li{
     background-color:cadetblue;
@@ -24,14 +25,14 @@
     width:125px;
     height:80px;
     padding-left:15px;
-    padding-top:9px;
+    padding-top:15px;
     }
     #menu ul li a {
     text-decoration:none;
     color:snow;
     display:block;
     }
-    #menu ul li a:hover{
+    #menu ul li:hover{
     background-color:darkgreen;
     color:ghostwhite;
     }
@@ -51,10 +52,10 @@
      <tr> 
          <td class="auto-style2" id="menu">
             <ul>
-                <li><a href="~/Apply.aspx">Apply </a></li>
-                <li><a href="~/calender.aspx">Calendar</a></li>
-                <li><a href="~/Acceptance.aspx">Acceptance</a></li>
-                <li><a href="~/About.aspx">About</a></li>
+                <li><a href="Apply.aspx" runat="server">Apply </a></li>
+                <li><a href="Calendar.aspx"  runat="server">Calendar</a></li>
+                <li><a href="Acceptance.aspx"  runat="server">Acceptance</a></li>
+                <li><a href="About.aspx"  runat="server">About</a></li>
             </ul>
 
          </td>

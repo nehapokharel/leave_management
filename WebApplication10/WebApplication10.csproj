@@ -67,12 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Teacher.aspx" />
     <Content Include="Web.config" />
-    <Content Include="calendar.aspx" />
     <Content Include="Apply.aspx" />
-    <Content Include="Acceptance.aspx" />
     <Content Include="About.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="Calendar.aspx" />
+    <Content Include="Acceptance.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="NestedMasterPage1.master.cs">
@@ -90,26 +91,12 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="calendar.aspx.cs">
-      <DependentUpon>calendar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="calendar.aspx.designer.cs">
-      <DependentUpon>calendar.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Apply.aspx.cs">
       <DependentUpon>Apply.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Apply.aspx.designer.cs">
       <DependentUpon>Apply.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Acceptance.aspx.cs">
-      <DependentUpon>Acceptance.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Acceptance.aspx.designer.cs">
-      <DependentUpon>Acceptance.aspx</DependentUpon>
     </Compile>
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -124,6 +111,27 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher.aspx.cs">
+      <DependentUpon>Teacher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teacher.aspx.designer.cs">
+      <DependentUpon>Teacher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar.aspx.cs">
+      <DependentUpon>Calendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calendar.aspx.designer.cs">
+      <DependentUpon>Calendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Acceptance.aspx.cs">
+      <DependentUpon>Acceptance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Acceptance.aspx.designer.cs">
+      <DependentUpon>Acceptance.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

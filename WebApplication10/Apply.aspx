@@ -14,7 +14,7 @@
         </tr>
         <tr>
             <td>Start-date:</td>
-            <td><asp:TextBox runat="server" ID="startdate"></asp:TextBox></td> 
+            <td><asp:TextBox runat="server" ID="startdate" ></asp:TextBox></td> 
         </tr>
         <tr>
             <td>End-date:</td>
@@ -23,6 +23,9 @@
         <tr>
             <td>Reason for leave:</td>
             <td><asp:TextBox runat="server" ID="reason" Height="100px"></asp:TextBox></td> 
+        </tr>
+        <tr>
+           <td><asp:Button runat="server" ID="btnsubmit" Text="Submit"  OnClick="btnsubmit_Click"/></td> 
         </tr>
     </table>
    

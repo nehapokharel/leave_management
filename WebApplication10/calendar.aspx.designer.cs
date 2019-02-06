@@ -10,7 +10,7 @@
 namespace WebApplication10 {
     
     
-    public partial class WebForm2 {
+    public partial class WebForm1 {
         
         /// <summary>
         /// Calendar1 control.
